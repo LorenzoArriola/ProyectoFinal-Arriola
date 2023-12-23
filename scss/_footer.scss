@@ -1,0 +1,38 @@
+/* Estilos del footer */
+
+footer {
+    background-color: $color-negro;
+    color: $color-blanco;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 350px;
+}
+
+.footer-social {
+    margin-top: 20px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-blanco;
+        font-weight: bold;
+    }
+}

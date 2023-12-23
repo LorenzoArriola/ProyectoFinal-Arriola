@@ -1,0 +1,10 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    background-color: $color-negro;
+}

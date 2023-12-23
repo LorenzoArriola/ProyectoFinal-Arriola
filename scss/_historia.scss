@@ -1,0 +1,23 @@
+
+
+
+/*imagenes de historia*/
+
+.separacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: $color-blanco;
+   margin: 20px;
+}
+
+.intro {
+    margin: 0 10px;
+    border: $color-blanco;
+}
+
+/*logo mk2*/
+
+.logomk2 {
+    max-width: 100%;
+}

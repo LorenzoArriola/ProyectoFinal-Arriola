@@ -1,0 +1,29 @@
+/* Flexbox para secciones específicas */
+
+#liukang,
+#kunglao,
+#cage,
+#Reptile,
+#sub,
+#shang,
+#Kitana,
+#jax,
+#milena,
+#baraka,
+#scorpion,
+#raiden {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.biografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio {
+    margin: 0 10px;
+    border: $color-blanco;
+}

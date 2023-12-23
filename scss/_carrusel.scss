@@ -1,0 +1,42 @@
+/*/carrusel/*/
+
+/* Estilos del carrusel de tarjetas */
+
+.card-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 20px 0;
+}
+
+/* Estilos de las tarjetas */
+
+.card {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    border: 1px solid $color-blanco;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: $color-blanco;
+    text-align: center;
+}
+
+/* Estilos de los botones de flecha */
+
+.arrow {
+    font-size: 24px;
+    background-color: $color-gris;
+    color: $color-blanco;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    order: -1;
+}

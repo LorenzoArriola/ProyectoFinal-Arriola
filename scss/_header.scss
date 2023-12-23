@@ -1,0 +1,58 @@
+
+@mixin testo {
+    text-decoration: none;
+    color: $color-negro;
+}
+
+/* Estilos del encabezado */
+
+header {
+    border-bottom: 1px solid $color-negro;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* Estilos del logotipo */
+
+.logo {
+    width: 350px;
+}
+
+/* Estilos del menú de navegación */
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    @include testo;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+/* Estilos del contenido principal */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilos de los encabezados h1 y h2 */
+
+h1,
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: $color-rojo;
+    text-decoration: underline;
+}
+
+/* Estilos para el color rojo */
+b {
+    color: $color-rojo;
+}
